@@ -32,7 +32,7 @@ A modern web application designed to connect blood donors with those in need, ma
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/blood-connect-rescue-aid.git
+git clone https://github.com/PreethamAnand/blood-connect-rescue-aid.git
 cd blood-connect-rescue-aid
 ```
 
@@ -86,7 +86,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter any issues or have questions, please:
-1. Check the [Issues](https://github.com/yourusername/blood-connect-rescue-aid/issues) section
+1. Check the [Issues](https://github.com/PreethamAnand/blood-connect-rescue-aid/issues) section
 2. Create a new issue if your problem hasn't been reported
 3. Contact the maintainers for urgent matters
 
