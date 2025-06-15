@@ -32,7 +32,7 @@ A modern web application designed to connect blood donors with those in need, ma
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/PreethamAnand/blood-connect-rescue-aid.git
+git clone https://github.com/yourusername/blood-connect-rescue-aid.git
 cd blood-connect-rescue-aid
 ```
 
@@ -61,15 +61,81 @@ The application will be available at `http://localhost:5173`
 ## Project Structure
 
 ```
-src/
-├── components/     # Reusable UI components
-├── pages/         # Page components
-├── contexts/      # React context providers
-├── hooks/         # Custom React hooks
-├── services/      # API and service functions
-├── types/         # TypeScript type definitions
-└── utils/         # Utility functions
+blood-connect-rescue-aid/
+├── src/                    # Source files
+│   ├── components/        # Reusable UI components
+│   ├── pages/            # Page components
+│   ├── lib/              # Utility libraries and configurations
+│   ├── hooks/            # Custom React hooks
+│   ├── data/             # Static data and constants
+│   ├── App.tsx           # Main application component
+│   ├── main.tsx          # Application entry point
+│   └── index.css         # Global styles
+├── public/               # Static assets
+├── vite.config.ts        # Vite configuration
+├── tailwind.config.ts    # Tailwind CSS configuration
+├── tsconfig.json         # TypeScript configuration
+├── package.json          # Project dependencies and scripts
+└── README.md            # Project documentation
 ```
+
+### Key Directories
+
+- **components/**: Contains all reusable UI components
+  - `ui/`: Basic UI components (buttons, inputs, etc.)
+  - `layout/`: Layout components (header, footer, etc.)
+  - `features/`: Feature-specific components
+
+- **pages/**: Contains all page components
+  - `auth/`: Authentication related pages
+  - `dashboard/`: Dashboard and user profile pages
+  - `donation/`: Blood donation related pages
+
+- **lib/**: Contains utility functions and configurations
+  - `firebase/`: Firebase configuration and utilities
+  - `utils/`: Helper functions and constants
+
+- **hooks/**: Custom React hooks for shared logic
+- **data/**: Static data, constants, and mock data
+
+## Future Modifications
+
+### Planned Features
+1. **Enhanced Matching System**
+   - AI-powered donor-recipient matching
+   - Priority-based emergency request handling
+   - Location-based donor suggestions
+
+2. **Mobile Application**
+   - Native mobile app development
+   - Push notifications for emergency requests
+   - Offline support
+
+3. **Analytics Dashboard**
+   - Blood donation trends
+   - Regional demand analysis
+   - Donor engagement metrics
+
+4. **Integration Features**
+   - Hospital management system integration
+   - Blood bank inventory management
+   - Emergency services integration
+
+### Technical Improvements
+1. **Performance Optimization**
+   - Code splitting and lazy loading
+   - Image optimization
+   - Caching strategies
+
+2. **Security Enhancements**
+   - Two-factor authentication
+   - Enhanced data encryption
+   - Regular security audits
+
+3. **Testing Infrastructure**
+   - Unit testing setup
+   - Integration testing
+   - End-to-end testing
 
 ## Contributing
 
@@ -86,7 +152,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter any issues or have questions, please:
-1. Check the [Issues](https://github.com/PreethamAnand/blood-connect-rescue-aid/issues) section
+1. Check the [Issues](https://github.com/yourusername/blood-connect-rescue-aid/issues) section
 2. Create a new issue if your problem hasn't been reported
 3. Contact the maintainers for urgent matters
 
